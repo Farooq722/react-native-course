@@ -18,6 +18,10 @@ import { ChallengeFlatList } from "../componentsFlatList6/ChallengeFlatList";
 import { Parent } from "../componentsProps7/Parent";
 import { ChallengeParent } from "../componentsProps7/ChallengeParent";
 import { State } from "../componentsState8/State";
+import { Toggle } from "../componentsState8/ChallengeToggle1";
+import { Weather } from "../componentsState8/ChallengeWeather";
+import { ColorChange } from "../componentsState8/ChallengeColor";
+import { Todo } from "../componentsState8/ChallengeTodo";
 
 const Index = () => {
   return (
@@ -37,10 +41,14 @@ const Index = () => {
         <StyleSheet1 />
         <FlatList1 />
         <ArrayOfObject /> */}
-        {/* <ChallengeFlatList /> */}
+      {/* <ChallengeFlatList /> */}
       {/* </ScrollView> */}
       {/* <ChallengeParent /> */}
-      <State />
+      {/* <State /> */}
+      {/* <Toggle /> */}
+      {/* <Weather /> */}
+      {/* <ColorChange /> */}
+      <Todo />
     </SafeAreaView>
   );
 };
