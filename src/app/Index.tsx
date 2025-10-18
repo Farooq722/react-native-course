@@ -14,11 +14,15 @@ import { StyleSheet1 } from "../components5style/StyleSheet ";
 import { FlatList1 } from "../componentsFlatList6/FlatList1";
 import { ArrayOfObject } from "../componentsFlatList6/ArrayOfObect";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { ChallengeFlatList } from "../componentsFlatList6/ChallengeFlatList";
+import { Parent } from "../componentsProps7/Parent";
+import { ChallengeParent } from "../componentsProps7/ChallengeParent";
+import { State } from "../componentsState8/State";
 
 const Index = () => {
   return (
     <SafeAreaView>
-      <ScrollView>
+      {/* <ScrollView>
         <Text>Hello there Farooq world</Text>
         <Greet />
         <ComponentA />
@@ -32,8 +36,11 @@ const Index = () => {
         <InlineStyle />
         <StyleSheet1 />
         <FlatList1 />
-        <ArrayOfObject />
-      </ScrollView>
+        <ArrayOfObject /> */}
+        {/* <ChallengeFlatList /> */}
+      {/* </ScrollView> */}
+      {/* <ChallengeParent /> */}
+      <State />
     </SafeAreaView>
   );
 };
