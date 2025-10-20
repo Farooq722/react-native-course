@@ -22,10 +22,15 @@ import { Toggle } from "../componentsState8/ChallengeToggle1";
 import { Weather } from "../componentsState8/ChallengeWeather";
 import { ColorChange } from "../componentsState8/ChallengeColor";
 import { Todo } from "../componentsState8/ChallengeTodo";
+import { Useeffect } from "../componentsUseEffect9/Useeffect";
+import { userProvider } from "../context/useContext";
+import { ContextApi } from "../componentsContext10/ContextApi";
+import "../../global.css";
+import { Link } from "expo-router";
 
 const Index = () => {
   return (
-    <SafeAreaView>
+    <SafeAreaView className="flex-1 items-center justify-center bg-red-500 margin-top-10">
       {/* <ScrollView>
         <Text>Hello there Farooq world</Text>
         <Greet />
@@ -48,7 +53,17 @@ const Index = () => {
       {/* <Toggle /> */}
       {/* <Weather /> */}
       {/* <ColorChange /> */}
-      <Todo />
+      {/* <Todo /> */}
+      <Link href={"../expoRouter/Explore" as any}>Go to Explore</Link>
+      <Link href={"../expoRouter/About" as any}>Go to About</Link>
+      <Link href={"../expoRouter/Home" as any}>Go to Home</Link>
+      <Text className="text-xl font-bold text-blue-500">
+        <Useeffect />
+      </Text>
+
+      {/* <userProvider>
+        <ContextApi />
+      </userProvider> */}
     </SafeAreaView>
   );
 };
