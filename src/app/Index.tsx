@@ -30,7 +30,7 @@ import { Link } from "expo-router";
 
 const Index = () => {
   return (
-    <SafeAreaView className="flex-1 items-center justify-center bg-red-500 margin-top-10">
+    <SafeAreaView className="flex-1 items-center justify-center bg-red-500 mt-10">
       {/* <ScrollView>
         <Text>Hello there Farooq world</Text>
         <Greet />
@@ -57,9 +57,10 @@ const Index = () => {
       <Link href={"../expoRouter/Explore" as any}>Go to Explore</Link>
       <Link href={"../expoRouter/About" as any}>Go to About</Link>
       <Link href={"../expoRouter/Home" as any}>Go to Home</Link>
-      <Text className="text-xl font-bold text-blue-500">
+      <Link href={"../dynamicRouter/10" as any}>Go to Dynamic Route</Link>
+      {/* <Text className="text-xl font-bold text-blue-500">
         <Useeffect />
-      </Text>
+      </Text> */}
 
       {/* <userProvider>
         <ContextApi />
